@@ -1,14 +1,15 @@
--- Select all students---
-SELECT * FROM students;
+# Beginner-Level Python & SQL Demo
 
--- Find the highest score---
-SELECT MAX(score) AS highest_score FROM students;
+This repository contains beginner-level examples using **Python** and **SQL**, created while learning programming fundamentals.  
+I also had early exposure to **HTML** and **JavaScript** during high school, which sparked my interest in programming and motivated me to continue learning.
 
--- Find the lowest score---
-SELECT MIN(score) AS lowest_score FROM students;
+## 🐍 Python Example
+File: `basic_input_output.py`
 
--- Count how many students---
-SELECT COUNT(*) AS total_students FROM students;
+Features:
+- Use of `print`, `input`, and variables.
+- Simple program that asks for a name and age, then prints a message.
 
--- Find students with name starting with 'A'---
-SELECT * FROM students WHERE name LIKE 'A%';
+Run the script:
+```bash
+python basic_input_output.py
